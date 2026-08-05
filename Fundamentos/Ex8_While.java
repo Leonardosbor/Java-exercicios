@@ -1,6 +1,6 @@
 // Exercício de WHILE
 
-public class Exercicio8 {
+public class Ex8_While {
     public static void main(String[] args) {
      
         int contador = 1;

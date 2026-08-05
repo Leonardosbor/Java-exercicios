@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exercicio6 {
+public class Ex6_Condicionais {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);

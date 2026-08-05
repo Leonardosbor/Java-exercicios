@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exercicio10 {
+public class Ex10_DoWhile {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);

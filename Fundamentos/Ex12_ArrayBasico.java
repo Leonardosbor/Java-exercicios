@@ -1,6 +1,6 @@
 // Exercicio de ARRAY + FOR
 
-public class Exercicio12{
+public class Ex12_ArrayBasico{
     public static void main(String[] args) {
 
         String[] produtos = new String[5];

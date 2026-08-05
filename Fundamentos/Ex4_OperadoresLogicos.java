@@ -1,4 +1,4 @@
-public class Exercicio4 {
+public class Ex4_OperadoresLogicos {
     public static void main(String[] args){
 
 

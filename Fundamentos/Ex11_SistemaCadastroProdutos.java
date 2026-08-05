@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Exercicio11 {
+public class Ex11_SistemaCadastroProdutos {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 

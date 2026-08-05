@@ -1,4 +1,4 @@
-public class Exercicio1{
+public class Ex1_Variaveis{
     public static void main(String[] args){
 
         String produto = "Guitarra";

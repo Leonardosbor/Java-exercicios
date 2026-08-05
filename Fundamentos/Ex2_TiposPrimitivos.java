@@ -1,4 +1,4 @@
-public class Exercicio2{
+public class Ex2_TiposPrimitivos{
     public static void main(String[] args){
 
         String nome = "Leonardo";

@@ -2,12 +2,12 @@
 
 import java.util.Scanner;
 
-public class Exercicio15 {
+public class Ex15_ArrayCondicionaisContadores {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
 
-        double [] notas = new double[3];
+        double[] notas = new double[3];
 
         int aprovados = 0;
         int recuperacao = 0;
