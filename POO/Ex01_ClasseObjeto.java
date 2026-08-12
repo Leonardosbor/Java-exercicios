@@ -1,4 +1,4 @@
-class Produto_Ex_01{
+class ProdutoEx01{
 
     String nome;
     double preco;
@@ -10,8 +10,8 @@ public class Ex01_ClasseObjeto {
     
     public static void main(String[] args) {
         
-        Produto_Ex_01 produto1 = new Produto_Ex_01();
-        Produto_Ex_01 produto2 = new Produto_Ex_01();
+        ProdutoEx01 produto1 = new ProdutoEx01();
+        ProdutoEx01 produto2 = new ProdutoEx01();
         
         produto1.nome = "Guitarra";
         produto1.preco = 2000;

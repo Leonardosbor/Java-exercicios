@@ -1,9 +1,9 @@
-class Produto_Ex_02{
+class ProdutoEx02{
         String nome;
         double preco;
         int estoque;
 
-        Produto_Ex_02(String nome, double preco, int estoque){
+        ProdutoEx02(String nome, double preco, int estoque){
 
             this.nome = nome;
             this.preco = preco;
@@ -15,9 +15,9 @@ class Produto_Ex_02{
 public class Ex02_Construtor{
     public static void main(String[] args){
 
-        Produto_Ex_02 produto1 = new Produto_Ex_02("Guitarra", 2000, 10);
-        Produto_Ex_02 produto2 = new Produto_Ex_02("Baixo", 1800, 2);
-        Produto_Ex_02 produto3 = new Produto_Ex_02("Teclado", 1500, 5);
+        ProdutoEx02 produto1 = new ProdutoEx02("Guitarra", 2000, 10);
+        ProdutoEx02 produto2 = new ProdutoEx02("Baixo", 1800, 2);
+        ProdutoEx02 produto3 = new ProdutoEx02("Teclado", 1500, 5);
 
         System.out.println();
         System.out.println("Produto: " + produto1.nome);
