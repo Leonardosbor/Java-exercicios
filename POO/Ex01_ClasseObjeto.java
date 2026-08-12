@@ -1,6 +1,4 @@
-package POO;
-
-class Produto{
+class Produto_Ex_01{
 
     String nome;
     double preco;
@@ -12,8 +10,8 @@ public class Ex01_ClasseObjeto {
     
     public static void main(String[] args) {
         
-        Produto produto1 = new Produto();
-        Produto produto2 = new Produto();
+        Produto_Ex_01 produto1 = new Produto_Ex_01();
+        Produto_Ex_01 produto2 = new Produto_Ex_01();
         
         produto1.nome = "Guitarra";
         produto1.preco = 2000;
