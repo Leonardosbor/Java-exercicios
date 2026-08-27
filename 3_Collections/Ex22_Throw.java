@@ -21,33 +21,46 @@ class ContaEx22{
         return saldo;
     }
 
+
     public void sacar(double valor){
         if(valor <= 0){
-            throw new IllegalArgumentException("Valor inválido para saque!");
+            throw new IllegalArgumentException("Valor inválido");
         }
 
         if(valor > saldo){
-            throw new IllegalArgumentException("Saldo insuficiente para saque!");
+            throw new IllegalArgumentException("Saldo insuficiente!");
+            
         }
 
-        System.out.println("Saque realizado no valor de: R$" + valor);
-        this.saldo = saldo - valor;
         System.out.println();
+        System.out.println("Saque realizado com sucesso!");
+
+        this.saldo = saldo - valor;
+
         System.out.println("Saldo atual: R$" + this.saldo);
+        System.out.println();
     }
 }
+
 
 public class Ex22_Throw {
     public static void main(String[] args) {
         
-        ContaEx22 conta = new ContaEx22(123456, "Fulano", 1000);
+        ContaEx22 conta0 = new ContaEx22(123, "Fulano", 2000);
+        ContaEx22 conta1 = new ContaEx22(456, "John Doe", 4000);
+        ContaEx22 conta2  = new ContaEx22(789, "Jane Doe", 3000);
 
         try{
-            conta.sacar(500);
+            conta2.sacar(2000);
+            conta1.sacar(3000);
+            conta0.sacar(2100);
             
-        } catch(IllegalArgumentException e){
-            System.out.println("Saque não realizado.");
+
+        
+        } catch (IllegalArgumentException e){
+            System.out.println("Saque não realizado!");
             System.out.println("Motivo: " + e.getMessage());
+            System.out.println();
         }
 
     }
