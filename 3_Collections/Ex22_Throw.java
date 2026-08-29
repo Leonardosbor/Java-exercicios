@@ -50,12 +50,12 @@ public class Ex22_Throw {
         ContaEx22 conta1 = new ContaEx22(456, "John Doe", 4000);
         ContaEx22 conta2  = new ContaEx22(789, "Jane Doe", 3000);
 
+        
         try{
             conta2.sacar(2000);
             conta1.sacar(3000);
             conta0.sacar(2100);
             
-
         
         } catch (IllegalArgumentException e){
             System.out.println("Saque não realizado!");
