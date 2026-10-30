@@ -1,246 +1,58 @@
 # Java — Estudos e Exercícios
 
-## Sobre o repositório
+Este repositório reúne exercícios e códigos desenvolvidos durante meus estudos de **Java**, com o objetivo de aplicar conceitos teóricos, desenvolver a lógica de programação e consolidar os fundamentos da linguagem.
 
-Este repositório foi criado para registrar minha evolução no aprendizado de Java, através de exercícios práticos e experimentos realizados durante os estudos.
+Os códigos possuem caráter didático e registram minha evolução no aprendizado de Java, com foco na construção de uma base técnica para o desenvolvimento Backend.
 
-O objetivo é transformar os conceitos estudados em prática, desenvolver raciocínio lógico e acompanhar minha evolução na linguagem.
+## Conteúdos estudados
 
-Os exercícios possuem caráter principalmente didático e são organizados de acordo com os conteúdos estudados.
+### 1. Fundamentos de Java
 
----
+- Variáveis, tipos de dados e operadores
+- Entrada de dados com `Scanner`
+- Estruturas condicionais (`if`, `else`, `switch`)
+- Estruturas de repetição (`for`, `while`, `do-while`)
+- Arrays e manipulação de elementos
 
-# Conteúdos estudados
+### 2. Programação Orientada a Objetos (POO)
 
-## Fundamentos do Java
+- Classes, objetos, atributos e métodos
+- Construtores e encapsulamento
+- Sobrecarga e sobrescrita de métodos
+- Composição e agregação
+- Herança e polimorfismo
+- Classes abstratas e interfaces
+- Métodos `toString()`, `equals()` e `hashCode()`
 
-### Variáveis e tipos de dados
+### 3. Collections Framework
 
-* Variáveis
-* Tipos primitivos
-* int
-* double
-* char
-* boolean
-* String
-* Conversão e utilização de diferentes tipos de dados
+- **ArrayList:** armazenamento e manipulação de listas
+- **HashSet:** utilização de conjuntos e controle de elementos duplicados
+- **HashMap:** armazenamento e manipulação de dados em pares de chave e valor
+- Percorrimento de coleções e manipulação de objetos
 
-### Operadores
+### 4. Generics
 
-* Operadores aritméticos
-* Operadores relacionais
-* Operadores lógicos
-* Operadores de atribuição
-* Comparações
-* Expressões booleanas
+- Parâmetros de tipo
+- Criação e utilização de classes genéricas
+- Aplicação de Generics com diferentes tipos de dados
+- Reutilização de código com segurança de tipos
 
-### Entrada de dados
+### 5. Tratamento de Exceções
 
-* Classe Scanner
-* Leitura de dados pelo usuário
-* Leitura de diferentes tipos de dados
+- Estruturas `try`, `catch` e `finally`
+- Lançamento e declaração de exceções com `throw` e `throws`
+- Tratamento de exceções como `NumberFormatException` e `IllegalArgumentException`
+- Criação e utilização de exceções personalizadas
 
-### Estruturas condicionais
+## Organização do repositório
 
-* if
-* else
-* else if
-* switch
-* Condições compostas
-* Operadores lógicos aplicados a decisões
+Os exercícios são organizados de acordo com os conteúdos estudados, permitindo acompanhar a aplicação prática dos conceitos apresentados.
 
-### Estruturas de repetição
+Cada etapa reúne códigos voltados à compreensão e à consolidação dos fundamentos de Java.
 
-* while
-* do-while
-* for
-* Contadores
-* Acumuladores
-* Controle de repetição
+## Sobre meu aprendizado
 
-### Arrays
+Atualmente, estou direcionando meus estudos para o desenvolvimento Backend com Java, priorizando a compreensão dos conceitos, a resolução de exercícios e a construção gradual de conhecimentos técnicos.
 
-* Declaração e inicialização
-* Acesso por índice
-* Percorrimento de arrays
-* Manipulação de elementos
-* Arrays associados à entrada de dados
-
----
-
-## Programação Orientada a Objetos — POO
-
-### Classes e objetos
-
-* Criação de classes
-* Instanciação de objetos
-* Atributos
-* Métodos
-* Estado e comportamento dos objetos
-
-### Construtores
-
-* Criação de construtores
-* Inicialização de objetos
-* Passagem de parâmetros
-* this
-
-### Encapsulamento
-
-* private
-* public
-* Getters
-* Setters
-* Controle de acesso aos atributos
-
-### Sobrecarga
-
-* Sobrecarga de métodos
-* Diferentes assinaturas para um mesmo método
-
-### Composição
-
-* Relacionamento entre objetos
-* Objetos como atributos de outras classes
-
-### Agregação
-
-* Relacionamento entre objetos independentes
-* Utilização de objetos de uma classe dentro de outra
-
-### Herança
-
-* extends
-* Classe base e classe derivada
-* Reutilização de atributos e comportamentos
-* super
-
-### Sobrescrita de métodos
-
-* @Override
-* Redefinição de comportamentos herdados
-
-### Polimorfismo
-
-* Referência da classe pai apontando para objetos das classes filhas
-* Diferentes comportamentos através da mesma referência
-
-### Classes abstratas
-
-* abstract
-* Classes abstratas
-* Métodos abstratos
-
-### Interfaces
-
-* Criação de interfaces
-* implements
-* Contratos de comportamento
-* Implementação de interfaces
-
-### toString()
-
-* Sobrescrita de toString()
-* Representação textual de objetos
-
-### equals()
-
-* Comparação entre objetos
-* Comparação de referências
-* Comparação baseada em identidade lógica
-* Sobrescrita de equals()
-
-### hashCode()
-
-* Conceito de código hash
-* Sobrescrita de hashCode()
-* Relação entre equals() e hashCode()
-
----
-
-## Collections Framework
-
-### ArrayList
-
-* Criação de listas
-* add()
-* remove()
-* get()
-* set()
-* size()
-* contains()
-* indexOf()
-* Percorrimento com for-each
-* Armazenamento de objetos em listas
-
-### HashSet
-
-* Criação de conjuntos
-* Inserção de elementos
-* add()
-* contains()
-* size()
-* Identificação de elementos considerados duplicados
-* Relação entre equals() e hashCode()
-
-### HashMap
-
-* Estrutura de chave e valor
-* put()
-* get()
-* remove()
-* containsKey()
-* values()
-* size()
-* Substituição de valores através de chaves
-
----
-
-## Generics
-
-* Conceito de Generics
-* Parâmetros de tipo
-* <T>
-* Classes genéricas
-* Instanciação de classes genéricas
-* Utilização com String
-* Utilização com Integer
-* Utilização com Double
-* Utilização com classes próprias
-* Reutilização de código através de tipos genéricos
-
----
-
-## Exceptions
-
-### Tratamento de Exceptions
-
-* try
-* catch
-* finally
-* Exception
-* NumberFormatException
-* IllegalArgumentException
-
-### Lançamento de Exceptions
-
-* throw
-* throws
-* Diferença entre lançar e declarar uma Exception
-* getMessage()
-* Mensagens de erro personalizadas
-
-### Exceptions personalizadas
-
-* Criação de classes próprias de Exception
-* Herança de Exception
-* Construtores de Exceptions personalizadas
-* Validação de dados utilizando Exceptions
-
----
-
-## Objetivo
-
-Este repositório tem como objetivo documentar minha evolução prática em Java, registrando os conceitos estudados e os exercícios utilizados para consolidar cada etapa do aprendizado.
-
-Mais do que armazenar códigos, a proposta é construir uma base sólida através da prática e acompanhar minha evolução ao longo do processo de aprendizado.
+Este repositório representa parte desse processo de aprendizado e será atualizado conforme minha evolução na linguagem.
