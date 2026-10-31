@@ -1,4 +1,4 @@
-public class Ex4_OperadoresLogicos {
+public class Ex04_OperadoresLogicos {
     public static void main(String[] args){
 
 

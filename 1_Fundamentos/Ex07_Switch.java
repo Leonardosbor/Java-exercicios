@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Ex7_Switch{
+public class Ex07_Switch{
     public static void main(String[] args) {
      
         Scanner entrada = new Scanner(System.in);

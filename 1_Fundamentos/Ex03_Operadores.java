@@ -1,4 +1,4 @@
-public class Ex3_Operadores {
+public class Ex03_Operadores {
     public static void main(String[] args){
 
         String produto = "Teclado";

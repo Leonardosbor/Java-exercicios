@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Ex9_For {
+public class Ex09_For {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
